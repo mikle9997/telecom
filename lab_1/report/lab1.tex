@@ -82,11 +82,13 @@
 
 \section{Ход работы}
 
+\subsection{Моделирование синусоидального сигнала}
+
 При открытие Simulink был выбран шаблон Simple Simulation.
 
 \begin{figure}[H]
 \center{\includegraphics[width=1\linewidth]{img/000.png}}
-\caption{Выбор шаблона в начальном окне Simulink}
+\caption{Выбор шаблона в начальном окне Simulink.}
 \end{figure}
 
 \newpage
@@ -95,7 +97,7 @@
 
 \begin{figure}[H]
 \center{\includegraphics[width=1\linewidth]{img/001.png}}
-\caption{Схема автоматически сгенерированная Simulink}
+\caption{Схема автоматически сгенерированная Simulink.}
 \label{001}
 \end{figure}
 
@@ -103,8 +105,8 @@
 Краткое описание назначения элементов:
 \begin{itemize}
 \item \textbf{Sine Wave} задаёт синусоидальный сигнал с амплитудой 1 и частотой 1 rad/sec
-\item {Gain} усиливает входной сигнал в 2 раза
-\item {Saturation} устанавливает ограничивающие пределы верхний на 0.5 и нижний на -0.5\\
+\item \textbf{Gain} усиливает входной сигнал в 2 раза
+\item \textbf{Saturation} устанавливает ограничивающие пределы верхний на 0.5 и нижний на -0.5\\
 \end{itemize}
 
 Таким образом, при симуляции мы должны увидеть на графике 3 сигнала:
@@ -123,11 +125,15 @@ $\sim$ 6.28 секунды.\\
 
 \begin{figure}[H]
 \center{\includegraphics[width=1\linewidth]{img/002.png}}
-\caption{Результат симуляция. Окно Scope}
+\caption{Результат симуляция. Окно Scope.}
 \label{002}
 \end{figure}
 
 Проанализировав результаты симуляции, на соответствие ожиданиям, можно сделать вывод, что она выполнена правильно.
+
+\subsection{Моделирование прямоугольного сигнала}
+
+
 
 \section{Выводы}
 
